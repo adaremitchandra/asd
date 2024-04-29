@@ -33,8 +33,10 @@ const Navbar = () => {
           <Search className="absolute right-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
         </div>
         <div className="flex items-center gap-1 sm:gap-2">
-          <Button variant={"outline"}>masuk</Button>
-          <Button>daftar</Button>
+          <Button className="uppercase tracking-widest" variant={"outline"}>
+            masuk
+          </Button>
+          <Button className="uppercase tracking-widest">daftar</Button>
         </div>
       </nav>
     </header>

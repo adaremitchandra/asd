@@ -30,7 +30,7 @@ const page = () => {
               <Input id="password" type="password" placeholder="Masukan Password" required />
             </div>
           </div>
-          <Button type="submit" className="w-full">
+          <Button type="submit" className="w-full uppercase">
             Masuk
           </Button>
         </div>

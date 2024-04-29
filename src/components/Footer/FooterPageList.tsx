@@ -1,14 +1,11 @@
+import { playfair } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
-import { Playfair_Display } from "next/font/google";
 import Link from "next/link";
 
 interface FooterPageListProps {
   title: string;
   pageList: string[];
 }
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-});
 
 const FooterPageList = ({ title, pageList }: FooterPageListProps) => {
   return (
