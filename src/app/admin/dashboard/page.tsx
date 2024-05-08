@@ -55,8 +55,8 @@ const DashboardPage = () => {
         <h2>Produk Terbaru</h2>
         <div className="">
           <Table>
-            <TableHeader className="bg-primary text">
-              <TableRow className="hover:bg-transparent">
+            <TableHeader className="bg-primary text first:rounded-md">
+              <TableRow className="hover:bg-transparent rounded-lg">
                 <TableHead className="text-primary-foreground">Produk</TableHead>
                 <TableHead className="text-primary-foreground">Tanggal Dibuat</TableHead>
                 <TableHead className="text-primary-foreground">Harga (Rp)</TableHead>
