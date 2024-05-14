@@ -13,8 +13,6 @@ export async function GET(request: NextRequest) {
     console.log("code", code);
     const { tokens } = await oauth2Client.getToken(code as string);
 
-    // test commit
-
     oauth2Client.setCredentials(tokens);
 
     const oauth2 = google.oauth2({
